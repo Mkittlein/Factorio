@@ -1,0 +1,82 @@
+   0.000 2022-09-26 05:19:59; Factorio 1.1.69 (build 60061, linux64, headless)
+   0.049 Operating system: Linux (Ubuntu 22.04)
+   0.049 Program arguments: "/opt/factorio/bin/x64/factorio" "--start-server-load-latest" "--server-settings" "/opt/factorio/data/server-settings.json" 
+   0.049 Read data path: /opt/factorio/data
+   0.049 Write data path: /opt/factorio [7045/13475MB]
+   0.049 Binaries path: /opt/factorio/bin
+   0.055 System info: [CPU: Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz, 16 cores, RAM: 7945 MB]
+   0.055 Environment: DISPLAY=<unset> WAYLAND_DISPLAY=<unset> DESKTOP_SESSION=<unset> XDG_SESSION_DESKTOP=<unset> XDG_CURRENT_DESKTOP=<unset> __GL_FSAA_MODE=<unset> __GL_LOG_MAX_ANISO=<unset> __GL_SYNC_TO_VBLANK=<unset> __GL_SORT_FBCONFIGS=<unset> __GL_YIELD=<unset>
+   0.055 Running in headless mode
+   0.082 Loading mod core 0.0.0 (data.lua)
+   0.097 Loading mod base 1.1.69 (data.lua)
+   0.227 Loading mod base 1.1.69 (data-updates.lua)
+   0.767 Checksum for core: 1720724266
+   0.767 Checksum of base: 1802897234
+   0.917 Prototype list checksum: 3034860339
+   0.954 Info PlayerData.cpp:71: Local player-data.json available, timestamp 1664169599
+   0.954 Info PlayerData.cpp:78: Cloud player-data.json unavailable
+   0.955 Factorio initialised
+   0.956 Info ServerSynchronizer.cpp:29: nextHeartbeatSequenceNumber(0) initialized Synchronizer nextTickClosureTick(0).
+   0.956 Info ServerMultiplayerManager.cpp:795: updateTick(4294967295) changing state from(Ready) to(PreparedToHostGame)
+   0.956 Info ServerMultiplayerManager.cpp:795: updateTick(4294967295) changing state from(PreparedToHostGame) to(CreatingGame)
+   0.956 Loading map /opt/factorio/saves/Stress_Test.zip: 13311170 bytes.
+   0.965 Loading level.dat: 37477375 bytes.
+   0.970 Info Scenario.cpp:199: Map version 1.1.69-2
+   1.546 Loading script.dat: 1896 bytes.
+   1.548 Checksum for script /opt/factorio/temp/currently-playing/control.lua: 2881393120
+   1.553 Info UDPSocket.cpp:27: Opening socket at (IP ADDR:({0.0.0.0:34197}))
+   1.554 Hosting game at IP ADDR:({0.0.0.0:34197})
+   1.554 Info HttpSharedState.cpp:54: Downloading https://auth.factorio.com/generate-server-padlock-2?api_version=5
+   2.135 Info AuthServerConnector.cpp:79: Obtained serverPadlock for serverHash (r18MW2sqNoYH9XYR23drhSxgmXdnzIId) from the auth server.
+   2.135 Info ServerMultiplayerManager.cpp:795: updateTick(5286476) changing state from(CreatingGame) to(InGame)
+   2.248 Info ServerRouter.cpp:650: Asking pingpong servers (pingpong1.factorio.com:34197, pingpong2.factorio.com:34197, pingpong3.factorio.com:34197, pingpong4.factorio.com:34197) for own address
+   2.249 Info UDPSocket.cpp:39: Opening socket for broadcast
+   2.249 Info CommandLineMultiplayer.cpp:292: Maximum segment size = 500; minimum segment size = 25; maximum-segment-size peer count = 10; minimum-segment-size peer count = 20
+   2.250 Error InterruptibleStdioStream.cpp:61: Got EOF on stdin; closing
+   2.436 Info ServerRouter.cpp:533: Own address is IP ADDR:({181.117.195.79:34197}) (confirmed by pingpong1)
+   2.502 Info ServerRouter.cpp:533: Own address is IP ADDR:({181.117.195.79:34197}) (confirmed by pingpong2)
+   2.568 Info ServerRouter.cpp:533: Own address is IP ADDR:({181.117.195.79:34197}) (confirmed by pingpong4)
+   3.361 Info MatchingServer.cpp:114: Matching server game `13467701` has been created.
+   3.368 Info ServerMultiplayerManager.cpp:727: Matching server connection resumed
+  42.001 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.1.137:50889}))
+  42.001 Refusing connection for address (IP ADDR:({192.168.1.137:50889})), username (Dr.Gadorcha). UserVerificationMissing
+  42.618 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.1.137:59158}))
+  42.618 Refusing connection for address (IP ADDR:({192.168.1.137:59158})), username (Dr.Gadorcha). PasswordMissing
+  46.701 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.1.137:59159}))
+  46.702 Info ServerRouter.cpp:451: Replying to connectionRequest for address(IP ADDR:({192.168.1.137:59159})).
+  46.702 Info ServerSynchronizer.cpp:604: nextHeartbeatSequenceNumber(2666) adding peer(1)
+  46.721 Info ServerMultiplayerManager.cpp:795: updateTick(5286476) changing state from(InGame) to(InGameSavingMap)
+  46.733 Info ServerMultiplayerManager.cpp:944: updateTick(5286476) received stateChanged peerID(1) oldState(Ready) newState(ConnectedWaitingForMap)
+  46.995 Info ServerMultiplayerManager.cpp:1005: UpdateTick(5286476) Serving map(/opt/factorio/temp/mp-save-0.zip) for peer(1) size(13310818) auxiliary(213) crc(1074007912)
+  46.995 Info ServerMultiplayerManager.cpp:795: updateTick(5286476) changing state from(InGameSavingMap) to(InGame)
+  47.051 Info ServerMultiplayerManager.cpp:944: updateTick(5286476) received stateChanged peerID(1) oldState(ConnectedWaitingForMap) newState(ConnectedDownloadingMap)
+  48.801 Info ServerMultiplayerManager.cpp:944: updateTick(5286476) received stateChanged peerID(1) oldState(ConnectedDownloadingMap) newState(ConnectedLoadingMap)
+  49.334 Info ServerMultiplayerManager.cpp:944: updateTick(5286507) received stateChanged peerID(1) oldState(ConnectedLoadingMap) newState(TryingToCatchUp)
+  49.384 Info ServerMultiplayerManager.cpp:944: updateTick(5286510) received stateChanged peerID(1) oldState(TryingToCatchUp) newState(WaitingForCommandToStartSendingTickClosures)
+  49.384 Info GameActionHandler.cpp:5036: UpdateTick (5286510) processed PlayerJoinGame peerID(1) playerIndex(0) mode(connect) 
+  49.392 Info ConstructionManager.cpp:510: Checking 1 areas.
+  49.434 Info ServerMultiplayerManager.cpp:944: updateTick(5286513) received stateChanged peerID(1) oldState(WaitingForCommandToStartSendingTickClosures) newState(InGame)
+  87.534 Info ServerMultiplayerManager.cpp:1058: Disconnect notification for peer (1)
+  87.534 Info ServerMultiplayerManager.cpp:944: updateTick(5287648) received stateChanged peerID(1) oldState(InGame) newState(DisconnectScheduled)
+  87.535 Info ServerSynchronizer.cpp:623: nextHeartbeatSequenceNumber(3879) removing peer(1).
+  88.535 Info ServerMultiplayerManager.cpp:1205: Auto saving map as /opt/factorio/saves/Stress_Test.zip
+  88.551 Info AppManager.cpp:420: Saving game as /opt/factorio/saves/Stress_Test.zip
+  90.718 Info AppManagerStates.cpp:1903: Saving finished
+  98.479 Received SIGTERM, shutting down
+  98.479 Quitting: signal.
+  98.479 Info MainLoop.cpp:417: Saving map as /opt/factorio/saves/Stress_Test.zip
+  98.616 Info MainLoop.cpp:428: Saving progress: 0.010645%
+  99.582 Info MainLoop.cpp:428: Saving progress: 100.000000%
+  99.788 Info ServerMultiplayerManager.cpp:114: Disconnecting multiplayer connection.
+  99.788 Info ServerMultiplayerManager.cpp:795: updateTick(5287649) changing state from(InGame) to(DisconnectingScheduled)
+  99.822 Info ServerMultiplayerManager.cpp:795: updateTick(5287649) changing state from(DisconnectingScheduled) to(Disconnecting)
+  99.857 Info ServerMultiplayerManager.cpp:795: updateTick(5287649) changing state from(Disconnecting) to(Disconnected)
+  99.857 Info ServerMultiplayerManager.cpp:141: Quitting multiplayer connection.
+  99.857 Info ServerMultiplayerManager.cpp:795: updateTick(5287649) changing state from(Disconnected) to(Closed)
+  99.951 Info HttpSharedState.cpp:54: Downloading https://multiplayer.factorio.com/remove-game/13467701
+ 100.544 Info UDPSocket.cpp:218: Closing socket
+ 100.545 Info UDPSocket.cpp:248: Socket closed
+ 100.545 Info UDPSocket.cpp:218: Closing socket
+ 100.624 Info UDPSocket.cpp:218: Closing socket
+ 100.625 Info UDPSocket.cpp:248: Socket closed
+ 100.694 Goodbye
